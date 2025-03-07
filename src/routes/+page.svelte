@@ -89,22 +89,22 @@
 						École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
 					</p>
 					<p class="text-sm font-normal">IT Engineer - Cybersecurity and electronic banking</p>
-					<p class="text-xs font-normal text-gray-600">2022 - 2025</p>
+					<p class="text-xs font-normal whitespace-nowrap text-gray-600">2022 - 2025</p>
 				</div>
 				<div class="mb-1">
 					<p class="text-sm font-semibold">EM Normandie Business School</p>
 					<p class="text-sm font-normal">Master in Management - Grande Ecole Program</p>
-					<p class="text-xs font-normal text-gray-600">2023 - 2025</p>
+					<p class="text-xs font-normal whitespace-nowrap text-gray-600">2023 - 2025</p>
 				</div>
 				<div class="mb-1">
 					<p class="text-sm font-semibold">IT Carlow - South East Technological University</p>
 					<p class="text-sm font-normal">Bachelore of science - Software Development</p>
-					<p class="text-xs font-normal text-gray-600">2021 - 2022</p>
+					<p class="text-xs font-normal whitespace-nowrap text-gray-600">2021 - 2022</p>
 				</div>
 				<div class="mb-1">
 					<p class="text-sm font-semibold">IT Saint-Lô</p>
 					<p class="text-sm font-normal">Two year diploma - Multimédia and Internet</p>
-					<p class="text-xs font-normal text-gray-600">2019 - 2021</p>
+					<p class="text-xs font-normal whitespace-nowrap text-gray-600">2019 - 2021</p>
 				</div>
 			</div>
 		</div>
@@ -114,9 +114,9 @@
 
 			<div class="flex flex-col gap-2">
 				<div class="">
-					<div class="flex items-center justify-between">
+					<div class="flex items-center justify-between gap-2">
 						<p class="text-sm font-bold">DevOps</p>
-						<p class="text-xs font-normal text-gray-600">2024 - 2025</p>
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2024 - 2025</p>
 					</div>
 					<p class="text-sm font-normal">
 						Actively learning and applying DevOps methods in my free time by exploring CI/CD
@@ -138,11 +138,11 @@
 				</div>
 
 				<div class="">
-					<div class="flex items-center justify-between">
+					<div class="flex items-center justify-between gap-2">
 						<div class="flex items-center gap-2">
 							<p class="text-sm font-bold">Course project - engineering school</p>
 						</div>
-						<p class="text-xs font-normal text-gray-600">2022 - 2025</p>
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2022 - 2025</p>
 					</div>
 					<p class="text-sm font-normal">
 						Practice the different engineering notions seen in class through projects
@@ -161,7 +161,7 @@
 					</ul>
 				</div>
 				<div class="">
-					<div class="flex items-center justify-between">
+					<div class="flex items-center justify-between gap-2">
 						<div class="flex items-center gap-2">
 							<p class="text-sm font-bold">Data science, Capture The Flag - TRACS</p>
 							<a
@@ -185,7 +185,7 @@
 								></a
 							>
 						</div>
-						<p class="text-xs font-normal text-gray-600">2024 - 2024</p>
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2024 - 2024</p>
 					</div>
 					<p class="text-sm font-normal">
 						Participated at TRACS, a cybersecurity and data science competition organized by ViaRézo
@@ -204,7 +204,7 @@
 				</div>
 
 				<div class="">
-					<div class="flex items-center justify-between">
+					<div class="flex items-center justify-between gap-2">
 						<div class="flex items-center gap-2">
 							<p class="text-sm font-bold">Start-up weekend</p>
 							<a
@@ -228,7 +228,7 @@
 								></a
 							>
 						</div>
-						<p class="text-xs font-normal text-gray-600">2020 - 2020</p>
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2020 - 2020</p>
 					</div>
 					<p class="text-sm font-normal">
 						Participated in a 54-hour Startup Weekend, collaborating with a multidisciplinary team
@@ -249,13 +249,13 @@
 
 			<div class="flex flex-col gap-2">
 				<div class="">
-					<div class="flex items-center justify-between">
+					<div class="flex items-center justify-between gap-2">
 						<p class="text-sm font-normal">
 							<span class="font-bold">AIOA</span><span class="mx-1">-</span><span
 								>Full stack developer - Apprenticeship</span
 							>
 						</p>
-						<p class="text-xs font-normal text-gray-600">2022 - 2025</p>
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2022 - 2025</p>
 					</div>
 					<p class="text-sm font-normal">
 						Develop, and deploy web solutions, websites, and web-based applications, ensuring high
@@ -268,13 +268,13 @@
 				</div>
 
 				<div class="">
-					<div class="flex items-center justify-between">
+					<div class="flex items-center justify-between gap-2">
 						<p class="text-sm font-normal">
 							<span class="font-bold">LEEROY</span><span class="mx-1">-</span><span
 								>Front-End developer - Internship abroad</span
 							>
 						</p>
-						<p class="text-xs font-normal text-gray-600">2024 - 2024</p>
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2024 - 2024</p>
 					</div>
 					<p class="text-sm font-normal">
 						Maintain and enhance websites by implementing new features and updates using Svelte or
