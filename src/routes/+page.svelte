@@ -91,24 +91,24 @@
 				<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Education</h2>
 
 				<div class="mb-1">
-					<p class="text-sm font-semibold">
+					<h3 class="text-sm font-semibold">
 						École nationale supérieure d'ingénieurs de Caen (ENSICAEN)
-					</p>
+					</h3>
 					<p class="text-sm font-normal">IT Engineer - Cybersecurity and electronic banking</p>
 					<p class="text-xs font-normal whitespace-nowrap text-gray-600">2022 - 2025</p>
 				</div>
 				<div class="mb-1">
-					<p class="text-sm font-semibold">EM Normandie Business School</p>
+					<h3 class="text-sm font-semibold">EM Normandie Business School</h3>
 					<p class="text-sm font-normal">Master in Management - Grande Ecole Program</p>
 					<p class="text-xs font-normal whitespace-nowrap text-gray-600">2023 - 2025</p>
 				</div>
 				<div class="mb-1">
-					<p class="text-sm font-semibold">IT Carlow - South East Technological University</p>
+					<h3 class="text-sm font-semibold">IT Carlow - South East Technological University</h3>
 					<p class="text-sm font-normal">Bachelore of science - Software Development</p>
 					<p class="text-xs font-normal whitespace-nowrap text-gray-600">2021 - 2022</p>
 				</div>
 				<div class="mb-1">
-					<p class="text-sm font-semibold">IT Saint-Lô</p>
+					<h3 class="text-sm font-semibold">IT Saint-Lô</h3>
 					<p class="text-sm font-normal">Two year diploma - Multimédia and Internet</p>
 					<p class="text-xs font-normal whitespace-nowrap text-gray-600">2019 - 2021</p>
 				</div>
@@ -121,7 +121,7 @@
 			<div class="flex flex-col gap-2">
 				<div class="">
 					<div class="flex items-center justify-between gap-2">
-						<p class="text-sm font-bold">DevOps</p>
+						<h3 class="text-sm font-bold">DevOps</h3>
 						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2024 - 2025</p>
 					</div>
 					<p class="text-sm font-normal">
@@ -146,7 +146,7 @@
 				<div class="">
 					<div class="flex items-center justify-between gap-2">
 						<div class="flex items-center gap-2">
-							<p class="text-sm font-bold">Course project - engineering school</p>
+							<h3 class="text-sm font-bold">Course project - engineering school</h3>
 						</div>
 						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2022 - 2025</p>
 					</div>
@@ -169,7 +169,7 @@
 				<div class="">
 					<div class="flex items-center justify-between gap-2">
 						<div class="flex items-center gap-2">
-							<p class="text-sm font-bold">Data science, Capture The Flag - TRACS</p>
+							<h3 class="text-sm font-bold">Data science, Capture The Flag - TRACS</h3>
 							<a
 								target="_blank"
 								aria-label="Capture the flag"
@@ -212,7 +212,7 @@
 				<div class="">
 					<div class="flex items-center justify-between gap-2">
 						<div class="flex items-center gap-2">
-							<p class="text-sm font-bold">Start-up weekend</p>
+							<h3 class="text-sm font-bold">Start-up weekend</h3>
 							<a
 								target="_blank"
 								aria-label="Start-up weekend"
@@ -256,11 +256,11 @@
 			<div class="flex flex-col gap-2">
 				<div class="">
 					<div class="flex items-center justify-between gap-2">
-						<p class="text-sm font-normal">
+						<h3 class="text-sm font-normal">
 							<span class="font-bold">AIOA</span><span class="mx-1">-</span><span
 								>Full stack developer - Apprenticeship</span
 							>
-						</p>
+						</h3>
 						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2022 - 2025</p>
 					</div>
 					<p class="text-sm font-normal">
@@ -275,11 +275,11 @@
 
 				<div class="">
 					<div class="flex items-center justify-between gap-2">
-						<p class="text-sm font-normal">
+						<h3 class="text-sm font-normal">
 							<span class="font-bold">LEEROY</span><span class="mx-1">-</span><span
 								>Front-End developer - Internship abroad</span
 							>
-						</p>
+						</h3>
 						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2024 - 2024</p>
 					</div>
 					<p class="text-sm font-normal">
@@ -323,7 +323,7 @@
 		<div class="">
 			<h2 class="mb-1 border-b-2 border-gray-300 font-bold">References</h2>
 
-			<p class="text-sm font-normal">Nicholas Charbonneau</p>
+			<h3 class="text-sm font-normal">Nicholas Charbonneau</h3>
 			<p class="flex items-center gap-2 text-sm font-normal">
 				Technical Director at LEEROY<a
 					target="_blank"
