@@ -4,27 +4,51 @@
 	}
 </script>
 
-<section class="relative mx-auto flex h-full w-full max-w-4xl flex-col gap-4 bg-white p-4">
-	<div class="flex flex-col gap-2 text-center">
+<main class="relative mx-auto flex h-full w-full max-w-4xl flex-col gap-4 bg-white p-4">
+	<section class="flex flex-col gap-2 text-center">
 		<h1 class="text-xl font-bold">Mathieu Renaud</h1>
 
 		<p class="font-medium">IT Engineer - Cybersecurity and Electronic Banking</p>
 
 		<div class="flex flex-col items-center justify-center gap-1 text-sm sm:flex-row sm:gap-4">
-			<a class="inline-flex items-center gap-1" aria-label="Phone Number" href={`tel:+33641504249`}>
-				<img src="/fontawesome/phone-solid.svg" class="h-4 w-4" alt="Phone icon" />
+			<a
+				class="inline-flex items-center gap-1"
+				aria-label="Call me at +33641504249"
+				href={`tel:+33641504249`}
+			>
+				<img
+					src="/fontawesome/phone-solid.svg"
+					class="h-4 w-4"
+					alt="Phone icon"
+					aria-hidden="true"
+				/>
 				+33641504249
 			</a>
 			<a
 				class="inline-flex items-center gap-1"
-				aria-label="Email Address"
+				aria-label="Send me an email at mathieu.renaud29@gmail.com"
 				href={`mailto:mathieu.renaud29@gmail.com`}
 			>
-				<img src="/fontawesome/envelope-solid.svg" class="h-4 w-4" alt="Envelope icon" />
+				<img
+					src="/fontawesome/envelope-solid.svg"
+					class="h-4 w-4"
+					alt="Envelope icon"
+					aria-hidden="true"
+				/>
 				mathieu.renaud29@gmail.com
 			</a>
-			<address aria-label="Address" class="inline-flex items-center gap-1 not-italic">
-				<img src="/fontawesome/location-dot-solid.svg" class="h-4 w-4" alt="Location dot icon" />
+
+			<p class="sr-only">Location:</p>
+			<address
+				aria-label="Send me a mail at 45 Rue de Bras, Caen, France"
+				class="inline-flex items-center gap-1 not-italic"
+			>
+				<img
+					src="/fontawesome/location-dot-solid.svg"
+					class="h-4 w-4"
+					alt="Location dot icon"
+					aria-hidden="true"
+				/>
 				45 Rue de Bras, Caen, France
 			</address>
 		</div>
@@ -32,50 +56,65 @@
 		<div class="flex items-center justify-center gap-2 text-sm sm:gap-4">
 			<a
 				href="https://github.com/Equinoxis"
-				aria-label="Github"
+				aria-label="See my GitHub"
 				title="Github"
 				target="_blank"
 				rel="noreferrer"
 				class="inline-flex items-center gap-[2px] text-blue-600 transition-colors hover:text-blue-800"
 			>
 				<span class="text-sm">
-					<img src="/fontawesome/github-brands.svg" class="h-4 w-4" alt="GitHub icon" />
+					<img
+						src="/fontawesome/github-brands.svg"
+						class="h-4 w-4"
+						alt="GitHub icon"
+						aria-hidden="true"
+					/>
 				</span>
 				Equinoxis
 			</a>
 
 			<a
 				href="https://www.linkedin.com/in/mathieu-renaud-inge/"
-				aria-label="Linkedin"
+				aria-label="See my Linkedin"
 				title="Linkedin"
 				target="_blank"
 				rel="noreferrer"
 				class="inline-flex items-center gap-[2px] text-blue-600 transition-colors hover:text-blue-800"
 			>
 				<span class="text-sm">
-					<img src="/fontawesome/linkedin-brands.svg" class="h-4 w-4" alt="LinkedIn icon" />
+					<img
+						src="/fontawesome/linkedin-brands.svg"
+						class="h-4 w-4"
+						alt="LinkedIn icon"
+						aria-hidden="true"
+					/>
 				</span>
 				Mathieu Renaud
 			</a>
 
 			<a
 				href="https://mathieurenaud.fr/"
-				aria-label="Linkedin"
-				title="Linkedin"
+				aria-label="See my website"
+				title="Website"
 				target="_blank"
 				rel="noreferrer"
 				class="inline-flex items-center gap-[2px] text-blue-600 transition-colors hover:text-blue-800"
 			>
 				<span class="text-sm">
-					<img src="/fontawesome/globe-solid.svg" class="h-4 w-4" alt="Globe icon" />
+					<img
+						src="/fontawesome/globe-solid.svg"
+						class="h-4 w-4"
+						alt="Globe icon"
+						aria-hidden="true"
+					/>
 				</span>
 				mathieurenaud.fr
 			</a>
 		</div>
-	</div>
+	</section>
 
-	<div class="flex flex-col gap-2">
-		<div class="">
+	<article class="flex flex-col gap-2">
+		<section class="">
 			<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Summary</h2>
 
 			<p class="text-sm font-normal">
@@ -84,9 +123,9 @@
 				studying computer engineering at ENSICAEN. My goal is to explore new experiences and take on
 				exciting challenges.
 			</p>
-		</div>
+		</section>
 
-		<div class="">
+		<section class="">
 			<div>
 				<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Education</h2>
 
@@ -113,9 +152,9 @@
 					<p class="text-xs font-normal whitespace-nowrap text-gray-600">2019 - 2021</p>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="">
+		<section class="">
 			<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Projects</h2>
 
 			<div class="flex flex-col gap-2">
@@ -172,12 +211,13 @@
 							<h3 class="text-sm font-bold">Data science, Capture The Flag - TRACS</h3>
 							<a
 								target="_blank"
-								aria-label="Capture the flag"
+								aria-label="See TRACS's website"
 								rel="noopener noreferrer"
 								class="text-blue-600 hover:text-blue-800"
 								title="https://tracs.viarezo.fr/"
 								href="https://tracs.viarezo.fr/"
-								><svg
+							>
+								<svg
 									stroke="currentColor"
 									fill="currentColor"
 									stroke-width="0"
@@ -185,11 +225,12 @@
 									height="12"
 									width="12"
 									xmlns="http://www.w3.org/2000/svg"
-									><path
+								>
+									<path
 										d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
-									></path></svg
-								></a
-							>
+									></path>
+								</svg>
+							</a>
 						</div>
 						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2024 - 2024</p>
 					</div>
@@ -215,12 +256,13 @@
 							<h3 class="text-sm font-bold">Start-up weekend</h3>
 							<a
 								target="_blank"
-								aria-label="Start-up weekend"
+								aria-label="See Start-up weekend's website"
 								rel="noopener noreferrer"
 								class="text-blue-600 hover:text-blue-800"
 								title="https://startupsweekend.fr/"
 								href="https://startupsweekend.fr/"
-								><svg
+							>
+								<svg
 									stroke="currentColor"
 									fill="currentColor"
 									stroke-width="0"
@@ -228,11 +270,12 @@
 									height="12"
 									width="12"
 									xmlns="http://www.w3.org/2000/svg"
-									><path
+								>
+									<path
 										d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
-									></path></svg
-								></a
-							>
+									></path>
+								</svg>
+							</a>
 						</div>
 						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2020 - 2020</p>
 					</div>
@@ -248,9 +291,9 @@
 					</ul>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="">
+		<section class="">
 			<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Work Experience</h2>
 
 			<div class="flex flex-col gap-2">
@@ -293,9 +336,9 @@
 					</p>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="">
+		<section class="">
 			<div>
 				<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Technical Skills</h2>
 				<p class="text-sm font-normal">
@@ -304,23 +347,23 @@
 					Firebase, Node.js, Github, Gitlab
 				</p>
 			</div>
-		</div>
+		</section>
 
-		<div class="">
+		<section class="">
 			<div>
 				<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Soft Skills</h2>
 				<p class="text-sm font-normal">Communication, Resilience, Rigor, Curiosity, Team Spirit</p>
 			</div>
-		</div>
+		</section>
 
-		<div class="">
+		<section class="">
 			<div>
 				<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Languages</h2>
 				<p class="text-sm font-normal">French, English - TOIEC (930/990)</p>
 			</div>
-		</div>
+		</section>
 
-		<div class="">
+		<section class="">
 			<h2 class="mb-1 border-b-2 border-gray-300 font-bold">References</h2>
 
 			<h3 class="text-sm font-normal">Nicholas Charbonneau</h3>
@@ -328,11 +371,12 @@
 				Technical Director at LEEROY<a
 					target="_blank"
 					rel="noopener noreferrer"
-					aria-label="Leeroy"
+					aria-label="See Leeroy's website"
 					class="text-blue-600 hover:text-blue-800"
 					title="Leeroy"
 					href="https://www.leeroy.ca/"
-					><svg
+				>
+					<svg
 						stroke="currentColor"
 						fill="currentColor"
 						stroke-width="0"
@@ -340,25 +384,31 @@
 						height="12"
 						width="12"
 						xmlns="http://www.w3.org/2000/svg"
-						><path
+					>
+						<path
 							d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
-						></path></svg
-					></a
-				>
+						></path>
+					</svg>
+				</a>
 			</p>
 			<p class="text-sm font-normal">
 				<a class="inline-flex items-center gap-1 text-blue-600" href="mailto:nicholas@leeroy.ca"
 					>nicholas@leeroy.ca</a
 				>
 			</p>
-		</div>
-	</div>
+		</section>
+	</article>
 
 	<button
 		class="fixed right-2 bottom-2 aspect-square cursor-pointer rounded-full border border-black bg-white sm:right-8 sm:bottom-8 print:hidden"
-		aria-label="Download"
 		on:click={downloadPDF}
 	>
-		<img src="/fontawesome/download-solid.svg" class="m-3 h-4 w-4" alt="Download icon" />
+		<span class="sr-only">Download my resume as a PDF</span>
+		<img
+			src="/fontawesome/download-solid.svg"
+			class="m-3 h-4 w-4"
+			alt="Download icon"
+			aria-hidden="true"
+		/>
 	</button>
-</section>
+</main>
