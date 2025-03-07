@@ -12,7 +12,7 @@
 
 		<div class="flex flex-col items-center justify-center gap-1 text-sm sm:flex-row sm:gap-4">
 			<a class="inline-flex items-center gap-1" aria-label="Phone Number" href={`tel:+33641504249`}>
-				<i class="fa-solid fa-phone"></i>
+				<img src="/fontawesome/phone-solid.svg" class="h-4 w-4" alt="Phone icon" />
 				+33641504249
 			</a>
 			<a
@@ -20,11 +20,11 @@
 				aria-label="Email Address"
 				href={`mailto:mathieu.renaud29@gmail.com`}
 			>
-				<i class="fa-solid fa-envelope"></i>
+				<img src="/fontawesome/envelope-solid.svg" class="h-4 w-4" alt="Envelope icon" />
 				mathieu.renaud29@gmail.com
 			</a>
 			<address aria-label="Address" class="inline-flex items-center gap-1 not-italic">
-				<i class="fa-solid fa-location-pin"></i>
+				<img src="/fontawesome/location-dot-solid.svg" class="h-4 w-4" alt="Location dot icon" />
 				45 Rue de Bras, Caen, France
 			</address>
 		</div>
@@ -39,7 +39,7 @@
 				class="inline-flex items-center gap-[2px] text-blue-600 transition-colors hover:text-blue-800"
 			>
 				<span class="text-sm">
-					<i class="fa-brands fa-github"></i>
+					<img src="/fontawesome/github-brands.svg" class="h-4 w-4" alt="GitHub icon" />
 				</span>
 				Equinoxis
 			</a>
@@ -53,7 +53,7 @@
 				class="inline-flex items-center gap-[2px] text-blue-600 transition-colors hover:text-blue-800"
 			>
 				<span class="text-sm">
-					<i class="fa-brands fa-linkedin"></i>
+					<img src="/fontawesome/linkedin-brands.svg" class="h-4 w-4" alt="LinkedIn icon" />
 				</span>
 				Mathieu Renaud
 			</a>
@@ -67,7 +67,7 @@
 				class="inline-flex items-center gap-[2px] text-blue-600 transition-colors hover:text-blue-800"
 			>
 				<span class="text-sm">
-					<i class="fa-solid fa-globe"></i>
+					<img src="/fontawesome/globe-solid.svg" class="h-4 w-4" alt="Globe icon" />
 				</span>
 				mathieurenaud.fr
 			</a>
@@ -359,6 +359,6 @@
 		aria-label="Download"
 		on:click={downloadPDF}
 	>
-		<i class="fa-solid fa-download p-3"></i>
+		<img src="/fontawesome/download-solid.svg" class="m-3 h-4 w-4" alt="Download icon" />
 	</button>
 </section>
