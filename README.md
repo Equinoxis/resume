@@ -1,38 +1,47 @@
-# sv
+# 📝 Mathieu Renaud's Resume – SvelteKit Project
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[![Website](https://img.shields.io/badge/Live%20Demo-resume.mathieurenaud.fr-blue?style=flat&logo=vercel)](https://resume.mathieurenaud.fr/)
 
-## Creating a project
+This is my interactive resume, built using **SvelteKit** and hosted on **resume.mathieurenaud.fr**. The project provides a modern, lightweight, and responsive way to showcase my experience, skills, and projects.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🌜 Live Demo
 
-```bash
-# create a new project in the current directory
-npx sv create
+Check it out live at: **[resume.mathieurenaud.fr](https://resume.mathieurenaud.fr/)**
 
-# create a new project in my-app
-npx sv create my-app
+## 🛠️ Tech Stack
+
+- **Framework**: [SvelteKit](https://kit.svelte.dev/)
+- **Styling**: Tailwind CSS
+- **Hosting**: DigitalOcean
+- **Icons**: FontAwesome
+- **Package Manager**: Bun
+
+## 🚀 Installation & Setup
+
+To run the project locally, follow these steps:
+
+### 1️⃣ Clone the Repository
+
+```sh
+git clone https://github.com/Equinoxis/resume
+cd resume
 ```
 
-## Developing
+### 2️⃣ Install Dependencies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```sh
+bun install
 ```
 
-## Building
+### 3️⃣ Run in Development Mode
 
-To create a production version of your app:
-
-```bash
-npm run build
+```sh
+bun dev
 ```
 
-You can preview the production build with `npm run preview`.
+The site should now be accessible at **`http://localhost:5173/`**.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
+
+Made with ❤️ using SvelteKit. 🚀  
+By **Mathieu Renaud** – [mathieurenaud.fr](https://mathieurenaud.fr/)
