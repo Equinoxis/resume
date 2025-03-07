@@ -1,4 +1,10 @@
-<section class="mx-auto flex h-full w-full max-w-4xl flex-col gap-2 bg-white p-4">
+<script>
+	function downloadPDF() {
+		window.print();
+	}
+</script>
+
+<section class="relative mx-auto flex h-full w-full max-w-4xl flex-col gap-2 bg-white p-4">
 	<div class="flex flex-col gap-2 text-center sm:gap-0">
 		<h1 class="text-xl font-bold">Mathieu Renaud</h1>
 
@@ -347,4 +353,12 @@
 			</p>
 		</div>
 	</div>
+
+	<button
+		class="fixed right-2 bottom-2 aspect-square cursor-pointer rounded-full border border-black bg-white sm:right-8 sm:bottom-8 print:hidden"
+		aria-label="Download"
+		on:click={downloadPDF}
+	>
+		<i class="fa-solid fa-download p-3"></i>
+	</button>
 </section>
