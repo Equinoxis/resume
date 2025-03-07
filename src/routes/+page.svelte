@@ -4,13 +4,13 @@
 	}
 </script>
 
-<section class="relative mx-auto flex h-full w-full max-w-4xl flex-col gap-2 bg-white p-4">
-	<div class="flex flex-col gap-2 text-center sm:gap-0">
+<section class="relative mx-auto flex h-full w-full max-w-4xl flex-col gap-4 bg-white p-4">
+	<div class="flex flex-col gap-2 text-center">
 		<h1 class="text-xl font-bold">Mathieu Renaud</h1>
 
 		<p class="font-medium">IT Engineer - Cybersecurity and Electronic Banking</p>
 
-		<div class="flex flex-col items-center justify-center gap-1 text-sm sm:flex-row sm:gap-2">
+		<div class="flex flex-col items-center justify-center gap-1 text-sm sm:flex-row sm:gap-4">
 			<a class="inline-flex items-center gap-1" aria-label="Phone Number" href={`tel:+33641504249`}>
 				<i class="fa-solid fa-phone"></i>
 				+33641504249
@@ -29,7 +29,7 @@
 			</address>
 		</div>
 
-		<div class="flex items-center justify-center gap-2 text-sm">
+		<div class="flex items-center justify-center gap-2 text-sm sm:gap-4">
 			<a
 				href="https://github.com/Equinoxis"
 				aria-label="Github"
