@@ -8,7 +8,7 @@
 	<div class="flex flex-col gap-2 text-center sm:gap-0">
 		<h1 class="text-xl font-bold">Mathieu Renaud</h1>
 
-		<p class="font-medium">IT Engineer - Cybersecurity and electronic banking</p>
+		<p class="font-medium">IT Engineer - Cybersecurity and Electronic Banking</p>
 
 		<div class="flex flex-col items-center justify-center gap-1 text-sm sm:flex-row sm:gap-2">
 			<a class="inline-flex items-center gap-1" aria-label="Phone Number" href={`tel:+33641504249`}>
