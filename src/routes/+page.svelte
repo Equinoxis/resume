@@ -391,11 +391,6 @@
 					</svg>
 				</a>
 			</p>
-			<p class="text-sm font-normal">
-				<a class="inline-flex items-center gap-1 text-blue-600" href="mailto:nicholas@leeroy.ca"
-					>nicholas@leeroy.ca</a
-				>
-			</p>
 		</section>
 	</article>
 
