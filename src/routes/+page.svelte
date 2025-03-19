@@ -185,6 +185,53 @@
 				<div class="">
 					<div class="flex items-center justify-between gap-2">
 						<div class="flex items-center gap-2">
+							<h3 class="text-sm font-bold">Yellow Dot Decoder</h3>
+							<a
+								target="_blank"
+								aria-label="See Yellow Dot Decoder's website"
+								rel="noopener noreferrer"
+								class="text-blue-600 hover:text-blue-800"
+								title="https://yellow-dots-decoder.mathieurenaud.fr/"
+								href="https://yellow-dots-decoder.mathieurenaud.fr/"
+							>
+								<svg
+									stroke="currentColor"
+									fill="currentColor"
+									stroke-width="0"
+									viewBox="0 0 512 512"
+									height="12"
+									width="12"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+									></path>
+								</svg>
+							</a>
+						</div>
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2025</p>
+					</div>
+					<p class="text-sm font-normal">
+						Developed an open-source tool to analyze yellow dot patterns in printed documents. These
+						dots, embedded by laser printers, can encode details such as the printer's serial number
+						and print date, raising privacy concerns.
+					</p>
+					<ul class="list-disc pl-4 text-sm font-normal">
+						<li class="text-sm font-normal">
+							Built an interactive web application for decoding yellow dot patterns.
+						</li>
+						<li class="text-sm font-normal">
+							Implemented image processing techniques to enhance dot visibility.
+						</li>
+						<li class="text-sm font-normal">
+							Contributed to raising awareness about forensic tracking in printed documents.
+						</li>
+					</ul>
+				</div>
+
+				<div class="">
+					<div class="flex items-center justify-between gap-2">
+						<div class="flex items-center gap-2">
 							<h3 class="text-sm font-bold">Course project - engineering school</h3>
 						</div>
 						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2022 - 2025</p>
@@ -232,7 +279,7 @@
 								</svg>
 							</a>
 						</div>
-						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2024 - 2024</p>
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2024</p>
 					</div>
 					<p class="text-sm font-normal">
 						Participated at TRACS, a cybersecurity and data science competition organized by ViaRézo
@@ -277,7 +324,7 @@
 								</svg>
 							</a>
 						</div>
-						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2020 - 2020</p>
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2020</p>
 					</div>
 					<p class="text-sm font-normal">
 						Participated in a 54-hour Startup Weekend, collaborating with a multidisciplinary team
