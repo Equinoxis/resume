@@ -160,6 +160,57 @@
 			<div class="flex flex-col gap-2">
 				<div class="">
 					<div class="flex items-center justify-between gap-2">
+						<div class="flex items-center gap-2">
+							<h3 class="text-sm font-bold">DGSE x Root-Me Pro – Capture The Flag</h3>
+							<a
+								target="_blank"
+								aria-label="See DGSE's website"
+								rel="noopener noreferrer"
+								class="text-blue-600 hover:text-blue-800"
+								title="https://www.dgse.gouv.fr"
+								href="https://www.dgse.gouv.fr"
+							>
+								<svg
+									stroke="currentColor"
+									fill="currentColor"
+									stroke-width="0"
+									viewBox="0 0 512 512"
+									height="12"
+									width="12"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+									></path>
+								</svg>
+							</a>
+						</div>
+
+						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2025</p>
+					</div>
+					<p class="text-sm font-normal">
+						Fully completed a Capture The Flag challenge organized by the DGSE and Root-Me Pro. The
+						scenario simulated a full investigation involving malware analysis, packet capture
+						inspection, reverse engineering of Android applications, system infiltration, and
+						privilege escalation.
+					</p>
+					<ul class="list-disc pl-4 text-sm font-normal">
+						<li class="text-sm font-normal">
+							Analyzed a Security Operations Center server, virtual machines, and PCAP files to
+							reconstruct attacker behavior.
+						</li>
+						<li class="text-sm font-normal">
+							Performed privilege escalation, remote access forensics, and system compromise
+							reconstruction.
+						</li>
+						<li class="text-sm font-normal">
+							Successfully traced the identity of an attacker through OSINT techniques.
+						</li>
+					</ul>
+				</div>
+
+				<div class="">
+					<div class="flex items-center justify-between gap-2">
 						<h3 class="text-sm font-bold">DevOps</h3>
 						<p class="text-xs font-normal whitespace-nowrap text-gray-600">2024 - 2025</p>
 					</div>
@@ -391,7 +442,7 @@
 				<p class="text-sm font-normal">
 					Linux, Git, Docker, Apache2, JavaScript, TypeScript, C, C++, Java, Flutter, Android,
 					Scala, SvelteKit, Vue.js, PHP, HTML, CSS, SASS, Tailwind CSS, Python, PostgreSQL,
-					Firebase, Node.js, Github, Gitlab
+					Firebase, Node.js, Github, Gitlab, Cyber forensics, OSINT, Wireshark
 				</p>
 			</div>
 		</section>
