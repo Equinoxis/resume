@@ -1,0 +1,192 @@
+{
+	"personal": {
+		"name": "Mathieu Renaud",
+		"title": "IT Engineer - Cybersecurity and Electronic Banking",
+		"phone": "+33641504249",
+		"email": "mathieu.renaud29@gmail.com",
+		"address": "45 Rue de Bras, Caen, France",
+		"github": {
+			"url": "https://github.com/Equinoxis",
+			"username": "Equinoxis"
+		},
+		"linkedin": {
+			"url": "https://www.linkedin.com/in/mathieu-renaud-inge/",
+			"username": "Mathieu Renaud"
+		},
+		"website": {
+			"url": "https://mathieurenaud.fr/",
+			"display": "mathieurenaud.fr"
+		}
+	},
+
+	"summary": "Computer science engineer with three years of experience in development. Passionate about DevOps and Web, with a keen interest in automating the development process. Currently studying computer engineering at ENSICAEN. My goal is to explore new experiences and take on exciting challenges.",
+
+	"education": [
+		{
+			"school": "École nationale supérieure d'ingénieurs de Caen (ENSICAEN)",
+			"degree": "IT Engineer - Cybersecurity and electronic banking",
+			"years": "2022 - 2025"
+		},
+		{
+			"school": "EM Normandie Business School",
+			"degree": "Master in Management - Grande Ecole Program",
+			"years": "2023 - 2025"
+		},
+		{
+			"school": "IT Carlow - South East Technological University",
+			"degree": "Bachelor of Science - Software Development",
+			"years": "2021 - 2022"
+		},
+		{
+			"school": "IT Saint-Lô",
+			"degree": "Two year diploma - Multimedia and Internet",
+			"years": "2019 - 2021"
+		}
+	],
+
+	"projects": [
+		{
+			"title": "DGSE x Root-Me Pro – Capture The Flag",
+			"year": "2025",
+			"description": "Fully completed a Capture The Flag challenge organized by the DGSE and Root-Me Pro. The scenario simulated a full investigation involving malware analysis, packet capture inspection, reverse engineering of Android applications, system infiltration, and privilege escalation.",
+			"url": "https://www.dgse.gouv.fr",
+			"bullets": [
+				"Analyzed a Security Operations Center server, virtual machines, and PCAP files to reconstruct attacker behavior.",
+				"Performed privilege escalation, remote access forensics, and system compromise reconstruction.",
+				"Successfully traced the identity of an attacker through OSINT techniques."
+			],
+			"noprint": false
+		},
+		{
+			"title": "DevOps",
+			"year": "2024 - 2025",
+			"description": "Actively learning and applying DevOps methods in my free time by exploring CI/CD pipelines, containerization, and cloud deployment. While communicating with a team of developers.",
+			"bullets": [
+				"Hosting an Apache2 multi-service Web server with Ubuntu Linux and a reverse proxy.",
+				"Experimenting with automation tools such as Docker with Git and GitLab.",
+				"Continuously improving my knowledge of monitoring, security, and scalability best practices to enhance system reliability and efficiency."
+			],
+			"noprint": false
+		},
+		{
+			"title": "Yellow Dot Decoder",
+			"year": "2025",
+			"description": "Developed an open-source tool to analyze yellow dot patterns in printed documents. These dots, embedded by laser printers, can encode details such as the printer's serial number and print date, raising privacy concerns.",
+			"url": "https://yellow-dots-decoder.mathieurenaud.fr/",
+			"bullets": [
+				"Built an interactive web application for decoding yellow dot patterns.",
+				"Implemented image processing techniques to enhance dot visibility.",
+				"Contributed to raising awareness about forensic tracking in printed documents."
+			],
+			"noprint": false
+		},
+		{
+			"title": "Course project - engineering school",
+			"year": "2022 - 2025",
+			"description": "Practice the different engineering notions seen in class through projects",
+			"bullets": [
+				"Use SOLID principles and Software design patterns for application development",
+				"Project management and analysis of project feasibility and risks",
+				"Team management, practice the concepts acquired during the master's degree at EM Normandie"
+			],
+			"noprint": false
+		},
+		{
+			"title": "Data science, Capture The Flag - TRACS",
+			"year": "2024",
+			"description": "Participated at TRACS, a cybersecurity and data science competition organized by ViaRézo and the DGSE, tackling challenges in data science, cryptanalysis, and cybersecurity.",
+			"url": "https://tracs.viarezo.fr/",
+			"bullets": [
+				"Solved complex cybersecurity and data science challenges, including cryptanalysis, data processing, anomaly detection and OSINT.",
+				"Collaborated in a team environment, applying analytical and problem-solving skills under time constraints."
+			],
+			"noprint": true
+		},
+		{
+			"title": "Start-up weekend",
+			"year": "2020",
+			"description": "Participated in a 54-hour Startup Weekend, collaborating with a multidisciplinary team to develop a startup idea, build a prototype, and pitch to a panel of judges.",
+			"url": "https://startupsweekend.fr/",
+			"bullets": [
+				"Imagine and develop a business project, as a team",
+				"Managing a significant amount of work and information within a given time frame"
+			],
+			"noprint": false
+		}
+	],
+
+	"experience": [
+		{
+			"company": "AIOA",
+			"title": "Full stack developer - Apprenticeship",
+			"years": "2022 - 2025",
+			"description": [
+				"Develop, and deploy web solutions, websites, and web-based applications, ensuring high performance. Implement user-friendly interfaces, and integrate backend services.",
+				"Practice different engineering concepts, apply and experiment with various engineering concepts across development, automation, and system architecture."
+			],
+			"noprint": false
+		},
+		{
+			"company": "LEEROY",
+			"title": "Front-End developer - Internship abroad",
+			"years": "2024 - 2024",
+			"description": [
+				"Maintain and enhance websites by implementing new features and updates using Svelte or Vue.js. Collaborate with designers and backend developers to ensure seamless integration, optimal performance, and a responsive user experience.",
+				"Gained international experience in Montreal, Canada, working in a multicultural environment."
+			],
+			"noprint": false
+		}
+	],
+
+	"skills": {
+		"technical": [
+			"Linux",
+			"Git",
+			"Docker",
+			"Apache2",
+			"JavaScript",
+			"TypeScript",
+			"C",
+			"C++",
+			"Java",
+			"Flutter",
+			"Android",
+			"Scala",
+			"SvelteKit",
+			"Vue.js",
+			"PHP",
+			"HTML",
+			"CSS",
+			"SASS",
+			"Tailwind CSS",
+			"Python",
+			"PostgreSQL",
+			"Firebase",
+			"Node.js",
+			"Github",
+			"Gitlab",
+			"Cyber forensics",
+			"OSINT",
+			"Wireshark"
+		],
+		"soft": ["Communication", "Resilience", "Rigor", "Curiosity", "Team Spirit"]
+	},
+
+	"languages": ["French", "English - TOIEC (930/990)"],
+
+	"references": [
+		{
+			"name": "Nicholas Charbonneau",
+			"title": "Technical Director at LEEROY",
+			"link": "https://www.leeroy.ca/",
+			"email": "nicholas@leeroy.ca"
+		},
+		{
+			"name": "Joan Reynaud",
+			"title": "R&D engineer & IT teacher at ENSICAEN ",
+			"link": "https://www.ensicaen.fr/",
+			"email": "joan.reynaud@ensicaen.fr",
+			"phone": "+33231538182"
+		}
+	]
+}
