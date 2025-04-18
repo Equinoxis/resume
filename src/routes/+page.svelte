@@ -47,6 +47,7 @@
 				href={resume.personal.github.url}
 				target="_blank"
 				class="inline-flex items-center gap-[2px] text-blue-600 hover:text-blue-800"
+				rel="noopener"
 			>
 				<img
 					src="/fontawesome/github-brands.svg"
@@ -60,6 +61,7 @@
 				href={resume.personal.linkedin.url}
 				target="_blank"
 				class="inline-flex items-center gap-[2px] text-blue-600 hover:text-blue-800"
+				rel="noopener"
 			>
 				<img
 					src="/fontawesome/linkedin-brands.svg"
@@ -73,6 +75,7 @@
 				href={resume.personal.website.url}
 				target="_blank"
 				class="inline-flex items-center gap-[2px] text-blue-600 hover:text-blue-800"
+				rel="noopener"
 			>
 				<img
 					src="/fontawesome/globe-solid.svg"
@@ -109,12 +112,14 @@
 					<div class="flex items-center justify-between">
 						<div class="flex items-center gap-2">
 							<h3 class="text-sm font-bold">{project.title}</h3>
+
 							{#if project.url}
 								<a
 									href={project.url}
 									target="_blank"
 									class="text-blue-600 hover:text-blue-800"
 									aria-label="See {project.title}'s website"
+									rel="noopener"
 								>
 									<svg
 										stroke="currentColor"
@@ -193,6 +198,7 @@
 									target="_blank"
 									class="text-blue-600 hover:text-blue-800"
 									aria-label="See person"
+									rel="noopener"
 								>
 									<svg
 										stroke="currentColor"
