@@ -1,6 +1,6 @@
 <script>
 	import resume from '$lib/data/resume.json';
-	import private from '$lib/data/private.json';
+	const references = JSON.parse(import.meta.env.VITE_REFERENCES_JSON);
 
 	function downloadPDF() {
 		window.print();
@@ -180,7 +180,7 @@
 			<h2 class="mb-1 border-b-2 border-gray-300 font-bold">References</h2>
 
 			<div class="grid grid-cols-2 gap-2">
-				{#each resume.references as ref}
+				{#each references as ref}
 					<div class="">
 						<h3 class="text-sm font-normal">{ref.name}</h3>
 

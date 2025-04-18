@@ -172,21 +172,5 @@
 		"soft": ["Communication", "Resilience", "Rigor", "Curiosity", "Team Spirit"]
 	},
 
-	"languages": ["French", "English - TOIEC (930/990)"],
-
-	"references": [
-		{
-			"name": "Nicholas Charbonneau",
-			"title": "Technical Director at LEEROY",
-			"link": "https://www.leeroy.ca/",
-			"email": "nicholas@leeroy.ca"
-		},
-		{
-			"name": "Joan Reynaud",
-			"title": "R&D engineer & IT teacher at ENSICAEN ",
-			"link": "https://www.ensicaen.fr/",
-			"email": "joan.reynaud@ensicaen.fr",
-			"phone": "+33231538182"
-		}
-	]
+	"languages": ["French", "English - TOIEC (930/990)"]
 }
