@@ -31,16 +31,6 @@
 			"school": "EM Normandie Business School",
 			"degree": "Master in Management - Grande Ecole Program",
 			"years": "2023 - 2025"
-		},
-		{
-			"school": "IT Carlow - South East Technological University",
-			"degree": "Bachelor of Science - Software Development",
-			"years": "2021 - 2022"
-		},
-		{
-			"school": "IT Saint-Lô",
-			"degree": "Two year diploma - Multimedia and Internet",
-			"years": "2019 - 2021"
 		}
 	],
 
@@ -55,6 +45,18 @@
 				"Performed privilege escalation, remote access forensics, and system compromise reconstruction.",
 				"Successfully traced the identity of an attacker through OSINT techniques."
 			],
+			"noprint": false
+		},
+		{
+			"title": "SSTV Decoder – Signal Processing Project",
+			"year": "2025",
+			"description": "Developed a software decoder for SSTV (Slow-Scan Television) signals, commonly used by amateur radio operators to transmit images over audio frequencies. Focused on supporting modes like Martin, Scottie, and Robot.",
+			"bullets": [
+				"Implemented signal demodulation and image reconstruction algorithms in JavaScript.",
+				"Supported multiple SSTV modes and ensured compatibility with actual transmitted signals.",
+				"Designed an interactive front-end to visualize signal decoding in real time."
+			],
+			"url": "https://sstv-decoder.mathieurenaud.fr/",
 			"noprint": false
 		},
 		{
@@ -111,11 +113,22 @@
 				"Imagine and develop a business project, as a team",
 				"Managing a significant amount of work and information within a given time frame"
 			],
-			"noprint": false
+			"noprint": true
 		}
 	],
 
 	"experience": [
+		{
+			"company": "LEEROY",
+			"title": "DevOps Engineer",
+			"years": "2025 – Present",
+			"description": [
+				"Design, automate, and maintain CI/CD pipelines using Buddy to streamline development workflows. Manage AWS cloud infrastructure to ensure scalability, reliability, and security of deployments.",
+				"Develop custom scripts to automate tasks, monitor systems, and improve build and deployment efficiency. Implement cost optimization strategies to reduce cloud infrastructure expenses and support sustainable growth.",
+				"Contribute to infrastructure reliability and DevOps best practices while gaining hands-on experience in a production environment."
+			],
+			"noprint": false
+		},
 		{
 			"company": "AIOA",
 			"title": "Full stack developer - Apprenticeship",

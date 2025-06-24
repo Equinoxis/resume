@@ -106,6 +106,23 @@
 		</section>
 
 		<section>
+			<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Work Experience</h2>
+
+			{#each resume.experience as exp}
+				<div class="mb-2 {exp.noprint ? 'print:hidden' : ''}">
+					<div class="flex items-center justify-between">
+						<h3 class="text-sm font-bold">{exp.company} - {exp.title}</h3>
+						<p class="text-xs font-normal text-gray-600">{exp.years}</p>
+					</div>
+
+					{#each exp.description as desc}
+						<p class="text-sm font-normal">{desc}</p>
+					{/each}
+				</div>
+			{/each}
+		</section>
+
+		<section>
 			<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Projects</h2>
 			{#each resume.projects as project}
 				<div class="mb-2 {project.noprint ? 'print:hidden' : ''}">
@@ -145,23 +162,6 @@
 							<li>{bullet}</li>
 						{/each}
 					</ul>
-				</div>
-			{/each}
-		</section>
-
-		<section>
-			<h2 class="mb-1 border-b-2 border-gray-300 font-bold">Work Experience</h2>
-
-			{#each resume.experience as exp}
-				<div class="mb-2 {exp.noprint ? 'print:hidden' : ''}">
-					<div class="flex items-center justify-between">
-						<h3 class="text-sm font-bold">{exp.company} - {exp.title}</h3>
-						<p class="text-xs font-normal text-gray-600">{exp.years}</p>
-					</div>
-
-					{#each exp.description as desc}
-						<p class="text-sm font-normal">{desc}</p>
-					{/each}
 				</div>
 			{/each}
 		</section>
