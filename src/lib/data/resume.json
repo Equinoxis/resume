@@ -154,6 +154,8 @@
 	"skills": {
 		"technical": [
 			"Linux",
+			"AWS",
+			"CI/CD",
 			"Git",
 			"Docker",
 			"Apache2",
