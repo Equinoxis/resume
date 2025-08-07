@@ -19,7 +19,7 @@
 		}
 	},
 
-	"summary": "Computer science engineer with three years of experience in development. Passionate about DevOps and Web, with a keen interest in automating the development process. Currently studying computer engineering at ENSICAEN. My goal is to explore new experiences and take on exciting challenges.",
+	"summary": "Computer science engineer with three years of experience in development. Passionate about DevOps and Web, with a keen interest in automating the development process. Currently working as a DevOps engineer at Leeroy. My goal is to explore new experiences and take on exciting challenges.",
 
 	"education": [
 		{
@@ -71,7 +71,7 @@
 			"noprint": false
 		},
 		{
-			"title": "Yellow Dot Decoder",
+			"title": "Yellow Dots Decoder",
 			"year": "2025",
 			"description": "Developed an open-source tool to analyze yellow dot patterns in printed documents. These dots, embedded by laser printers, can encode details such as the printer's serial number and print date, raising privacy concerns.",
 			"url": "https://yellow-dots-decoder.mathieurenaud.fr/",
@@ -121,7 +121,7 @@
 		{
 			"company": "LEEROY",
 			"title": "DevOps Engineer",
-			"years": "2025 – Present",
+			"years": "2025 - Present",
 			"description": [
 				"Design, automate, and maintain CI/CD pipelines using Buddy to streamline development workflows. Manage AWS cloud infrastructure to ensure scalability, reliability, and security of deployments.",
 				"Develop custom scripts to automate tasks, monitor systems, and improve build and deployment efficiency. Implement cost optimization strategies to reduce cloud infrastructure expenses and support sustainable growth.",
